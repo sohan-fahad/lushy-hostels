@@ -6,11 +6,6 @@
 	import { ChevronRightIcon, ChevronLeftIcon } from 'svelte-feather-icons';
 	import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
-	import slider1 from '../../../assets/images/Atmosphere/A7300204.jpg';
-	import slider2 from '../../../assets/images/Atmosphere/A7301803.jpg';
-	import slider3 from '../../../assets/images/Atmosphere/A7302610.jpg';
-	import slider4 from '../../../assets/images/Atmosphere/A7302614.jpg';
-	import slider5 from '../../../assets/images/Atmosphere/A7302660.jpg';
 </script>
 
 <section class="lg:max-h-[100vh] overflow-hidden relative">
@@ -34,11 +29,19 @@
 		}}
 	>
 		<SwiperSlide>
-			<img class="h-full" src={slider1} alt="" />
+			<img class="h-full" src="https://i.ibb.co/HF1qWpx/A7300204.jpg" alt="" />
 		</SwiperSlide>
-		<SwiperSlide><img class="h-full" src={slider2} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={slider3} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={slider4} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={slider5} alt="" /></SwiperSlide>
+		<SwiperSlide
+			><img class="h-full" src="https://i.ibb.co/f1gZJCD/A7301803.jpg" alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="h-full" src="https://i.ibb.co/MVD3zPt/A7302610.jpg" alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="h-full" src="https://i.ibb.co/k5HPLHQ/A7302614.jpg" alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="h-full" src="https://i.ibb.co/VDQhVf1/A7302660.jpg" alt="" /></SwiperSlide
+		>
 	</Swiper>
 </section>
