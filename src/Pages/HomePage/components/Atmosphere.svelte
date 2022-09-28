@@ -19,7 +19,7 @@
 	import sliderImg11 from '../../../assets/images/atmosphere/grp_pic.jpg';
 </script>
 
-<section class="lg:max-h-[100vh] overflow-hidden relative">
+<section class="h-[250px] sm:h-[500px] lg:h-screen overflow-hidden relative">
 	<button
 		class="slider1-button-prev absolute top-[50%] left-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
 	>
@@ -39,16 +39,16 @@
 			prevEl: '.slider1-button-prev'
 		}}
 	>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg1} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg2} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg3} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg4} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg5} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg6} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg7} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg8} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg9} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg10} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg11} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg1} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg2} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg3} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg4} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg5} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg6} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg7} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg8} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg9} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg10} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg11} alt="" /></SwiperSlide>
 	</Swiper>
 </section>
