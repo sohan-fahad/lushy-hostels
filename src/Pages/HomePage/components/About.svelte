@@ -18,7 +18,7 @@
 		@apply h-auto sm:min-h-[400px] lg:h-screen w-full bg-no-repeat px-5 sm:px-[50px] lg:px-[150px] flex flex-col justify-center items-start lg:mt-0 py-9 sm:py-16 lg:py-0 bg-center lg:bg-bottom;
 		background-size: 100% auto;
 		background: linear-gradient(rgba(3, 3, 3, 0.5), rgba(0, 0, 0, 0.5)),
-			url('../../../assets/images/aboutImg.png');
+			url('../../../assets/images/aboutImg.jpg');
 		background-size: cover;
 	}
 </style>

@@ -6,6 +6,21 @@
 	import { ChevronRightIcon, ChevronLeftIcon } from 'svelte-feather-icons';
 	import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
+	import sliderImg2 from '../../../assets/images/room/20200630_141812.jpg';
+	import sliderImg3 from '../../../assets/images/room/20200623_142300.jpg';
+	import sliderImg4 from '../../../assets/images/room/20200623_142454.jpg';
+	import sliderImg5 from '../../../assets/images/room/20200623_142739.jpg';
+	import sliderImg6 from '../../../assets/images/room/20200630_141910.jpg';
+	import sliderImg7 from '../../../assets/images/room/20200813_141505.jpg';
+	import sliderImg8 from '../../../assets/images/room/20200813_141521.jpg';
+	import sliderImg9 from '../../../assets/images/room/20210801_135646-01.jpg';
+	import sliderImg10 from '../../../assets/images/room/146419684_118854880069491_4900715536467039206_n.jpg';
+	import sliderImg11 from '../../../assets/images/room/146419684_118854880069491_4900715536467039206_n.jpg';
+	import sliderImg12 from '../../../assets/images/room/146859922_1122924424809897_7279789132964693648_n.jpg';
+	import sliderImg13 from '../../../assets/images/room/A7R04777.jpg';
+	import sliderImg14 from '../../../assets/images/room/A7R04791.jpg';
+	import sliderImg15 from '../../../assets/images/room/A7R04792.jpg';
+	import sliderImg16 from '../../../assets/images/room/A7R04804.jpg';
 </script>
 
 <section class="lg:max-h-[100vh] overflow-hidden relative">
@@ -28,17 +43,20 @@
 			prevEl: '.slider3-button-prev'
 		}}
 	>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/0FmGXcd/20200630-141812.jpg" alt="" /></SwiperSlide
-		>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/D1nwT1f/A7R04786.jpg" alt="" /></SwiperSlide
-		>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/txvDfJx/A7R04792.jpg" alt="" /></SwiperSlide
-		>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/8c0n2kk/A7R04777.jpg" alt="" /></SwiperSlide
-		>
+		<SwiperSlide><img class="h-full" src={sliderImg2} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg3} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg4} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg5} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg6} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg7} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg8} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg9} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg10} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg11} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg12} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg13} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg14} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg15} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg16} alt="" /></SwiperSlide>
 	</Swiper>
 </section>

@@ -6,6 +6,17 @@
 	import { ChevronRightIcon, ChevronLeftIcon } from 'svelte-feather-icons';
 	import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
+	import sliderImg1 from '../../../assets/images/atmosphere/A7300204.jpg';
+	import sliderImg2 from '../../../assets/images/atmosphere/A7301803.jpg';
+	import sliderImg3 from '../../../assets/images/atmosphere/A7302614.jpg';
+	import sliderImg4 from '../../../assets/images/atmosphere/A7302660.jpg';
+	import sliderImg5 from '../../../assets/images/atmosphere/A7307613.jpg';
+	import sliderImg6 from '../../../assets/images/atmosphere/atmosphere11.png';
+	import sliderImg7 from '../../../assets/images/atmosphere/BC1_7067.jpg';
+	import sliderImg8 from '../../../assets/images/atmosphere/BC1_7141.jpg';
+	import sliderImg9 from '../../../assets/images/atmosphere/BC1_7346.jpg';
+	import sliderImg10 from '../../../assets/images/atmosphere/BC1_7477.jpg';
+	import sliderImg11 from '../../../assets/images/atmosphere/grp_pic.jpg';
 </script>
 
 <section class="lg:max-h-[100vh] overflow-hidden relative">
@@ -28,20 +39,16 @@
 			prevEl: '.slider1-button-prev'
 		}}
 	>
-		<SwiperSlide>
-			<img class="h-full" src="https://i.ibb.co/HF1qWpx/A7300204.jpg" alt="" />
-		</SwiperSlide>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/f1gZJCD/A7301803.jpg" alt="" /></SwiperSlide
-		>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/MVD3zPt/A7302610.jpg" alt="" /></SwiperSlide
-		>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/k5HPLHQ/A7302614.jpg" alt="" /></SwiperSlide
-		>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/VDQhVf1/A7302660.jpg" alt="" /></SwiperSlide
-		>
+		<SwiperSlide><img class="h-full" src={sliderImg1} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg2} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg3} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg4} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg5} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg6} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg7} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg8} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg9} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg10} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg11} alt="" /></SwiperSlide>
 	</Swiper>
 </section>

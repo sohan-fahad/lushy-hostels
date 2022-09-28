@@ -6,6 +6,14 @@
 	import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 	import { ChevronRightIcon, ChevronLeftIcon } from 'svelte-feather-icons';
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
+	import sliderImg1 from '../../../assets/images/dorm/IMG_2450.jpg';
+	import sliderImg2 from '../../../assets/images/dorm/IMG_2456.jpg';
+	import sliderImg3 from '../../../assets/images/dorm/IMG_2465.jpg';
+	import sliderImg4 from '../../../assets/images/dorm/IMG_2471.jpg';
+	import sliderImg5 from '../../../assets/images/dorm/IMG_2476.jpg';
+	import sliderImg6 from '../../../assets/images/dorm/IMG_2482.jpg';
+	import sliderImg7 from '../../../assets/images/dorm/IMG_2488.jpg';
+	import sliderImg8 from '../../../assets/images/dorm/_A725272.jpg';
 </script>
 
 <section class="lg:max-h-[100vh] overflow-hidden relative">
@@ -28,17 +36,14 @@
 			prevEl: '.slider2-button-prev'
 		}}
 	>
-		<SwiperSlide>
-			<img class="h-full" src="https://i.ibb.co/jkT7xyy/A725272.jpg" alt="" />
-		</SwiperSlide>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/gvZwFWS/IMG-2450.jpg" alt="" /></SwiperSlide
-		>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/3Bg2fgw/IMG-2456.jpg" alt="" /></SwiperSlide
-		>
-		<SwiperSlide
-			><img class="h-full" src="https://i.ibb.co/MBKGRNB/IMG-2465.jpg" alt="" /></SwiperSlide
-		>
+		<SwiperSlide><img class="h-full" src={sliderImg1} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg2} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg3} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg3} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg4} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg5} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg6} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg7} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full" src={sliderImg8} alt="" /></SwiperSlide>
 	</Swiper>
 </section>
