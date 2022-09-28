@@ -12,7 +12,7 @@
 	import sliderImg4 from '../../../assets/images/food/IMG_4097.jpg';
 </script>
 
-<section class="h-[250px] sm:h-[500px] lg:h-screen overflow-hidden relative">
+<section class="h-[200px] sm:h-[500px] lg:h-screen overflow-hidden relative">
 	<button
 		class="slider4-button-prev absolute top-[50%] left-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
 	>
