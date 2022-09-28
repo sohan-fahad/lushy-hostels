@@ -39,7 +39,6 @@
 		<SwiperSlide><img class="h-full w-full" src={sliderImg1} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-full w-full" src={sliderImg2} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-full w-full" src={sliderImg3} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full w-full" src={sliderImg3} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-full w-full" src={sliderImg4} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-full w-full" src={sliderImg5} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-full w-full" src={sliderImg6} alt="" /></SwiperSlide>
