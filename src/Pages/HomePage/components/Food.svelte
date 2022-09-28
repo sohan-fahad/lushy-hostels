@@ -32,9 +32,9 @@
 			prevEl: '.slider4-button-prev'
 		}}
 	>
-		<SwiperSlide><img class="h-full" src={sliderImg1} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg2} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg3} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg4} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg1} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg2} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg3} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg4} alt="" /></SwiperSlide>
 	</Swiper>
 </section>

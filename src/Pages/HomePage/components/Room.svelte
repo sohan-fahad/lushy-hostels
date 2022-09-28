@@ -43,20 +43,20 @@
 			prevEl: '.slider3-button-prev'
 		}}
 	>
-		<SwiperSlide><img class="h-full" src={sliderImg2} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg3} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg4} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg5} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg6} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg7} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg8} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg9} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg10} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg11} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg12} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg13} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg14} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg15} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg16} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg2} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg3} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg4} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg5} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg6} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg7} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg8} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg9} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg10} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg11} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg12} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg13} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg14} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg15} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="h-full w-full" src={sliderImg16} alt="" /></SwiperSlide>
 	</Swiper>
 </section>
