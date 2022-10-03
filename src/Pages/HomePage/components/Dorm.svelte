@@ -36,13 +36,13 @@
 			prevEl: '.slider2-button-prev'
 		}}
 	>
-		<SwiperSlide><img class="h-full" src={sliderImg1} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg2} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg3} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg4} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg5} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg6} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg7} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-full" src={sliderImg8} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="w-screen h-auto" src={sliderImg1} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="w-screen h-auto" src={sliderImg2} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="w-screen h-auto" src={sliderImg3} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="w-screen h-auto" src={sliderImg4} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="w-screen h-auto" src={sliderImg5} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="w-screen h-auto" src={sliderImg6} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="w-screen h-auto" src={sliderImg7} alt="" /></SwiperSlide>
+		<SwiperSlide><img class="w-screen h-auto" src={sliderImg8} alt="" /></SwiperSlide>
 	</Swiper>
 </section>
