@@ -16,7 +16,7 @@
 	import sliderImg8 from '../../../assets/images/dorm/_A725272.jpg';
 </script>
 
-<section class="h-[200px] sm:h-[500px] lg:h-screen overflow-hidden relative">
+<section class="overflow-hidden relative">
 	<button
 		class="slider2-button-prev absolute top-[50%] left-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
 	>

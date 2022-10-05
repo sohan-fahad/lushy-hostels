@@ -15,7 +15,6 @@
 	import sliderImg8 from '../../../assets/images/room/20200813_141521.jpg';
 	import sliderImg9 from '../../../assets/images/room/20210801_135646-01.jpg';
 	import sliderImg10 from '../../../assets/images/room/146419684_118854880069491_4900715536467039206_n.jpg';
-	import sliderImg11 from '../../../assets/images/room/146419684_118854880069491_4900715536467039206_n.jpg';
 	import sliderImg12 from '../../../assets/images/room/146859922_1122924424809897_7279789132964693648_n.jpg';
 	import sliderImg13 from '../../../assets/images/room/A7R04777.jpg';
 	import sliderImg14 from '../../../assets/images/room/A7R04791.jpg';
@@ -23,7 +22,7 @@
 	import sliderImg16 from '../../../assets/images/room/A7R04804.jpg';
 </script>
 
-<section class="h-[220px] sm:h-[500px] lg:h-screen overflow-hidden relative ">
+<section class="overflow-hidden relative ">
 	<button
 		class="slider3-button-prev absolute top-[50%] left-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
 	>
@@ -52,7 +51,6 @@
 		<SwiperSlide><img class="h-auto w-screen" src={sliderImg8} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-auto w-screen" src={sliderImg9} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-auto w-screen" src={sliderImg10} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg11} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-auto w-screen" src={sliderImg12} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-auto w-screen" src={sliderImg13} alt="" /></SwiperSlide>
 		<SwiperSlide><img class="h-auto w-screen" src={sliderImg14} alt="" /></SwiperSlide>

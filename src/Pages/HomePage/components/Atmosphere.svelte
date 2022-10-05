@@ -19,7 +19,7 @@
 	import sliderImg11 from '../../../assets/images/atmosphere/grp_pic.jpg';
 </script>
 
-<section class="h-[200px] sm:h-[500px] lg:h-screen overflow-hidden relative">
+<section class="overflow-hidden relative">
 	<button
 		class="slider1-button-prev absolute top-[50%] left-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
 	>
