@@ -12,7 +12,7 @@
 	import sliderImg4 from '../../../assets/images/food/IMG_4097.jpg';
 </script>
 
-<section class="overflow-hidden relative">
+<section class="h-[230px] sm:h-[400px] lg:h-screen overflow-hidden relative">
 	<button
 		class="slider4-button-prev absolute top-[50%] left-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
 	>
@@ -32,9 +32,33 @@
 			prevEl: '.slider4-button-prev'
 		}}
 	>
-		<SwiperSlide><img class="w-screen h-auto" src={sliderImg1} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="w-screen h-auto" src={sliderImg2} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="w-screen h-auto" src={sliderImg3} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="w-screen h-auto" src={sliderImg4} alt="" /></SwiperSlide>
+		<SwiperSlide
+			><img
+				class="h-[230px] sm:h-[400px] lg:h-screen overflow-hidden relative"
+				src={sliderImg1}
+				alt=""
+			/></SwiperSlide
+		>
+		<SwiperSlide
+			><img
+				class="h-[230px] sm:h-[400px] lg:h-screen overflow-hidden relative"
+				src={sliderImg2}
+				alt=""
+			/></SwiperSlide
+		>
+		<SwiperSlide
+			><img
+				class="h-[230px] sm:h-[400px] lg:h-screen overflow-hidden relative"
+				src={sliderImg3}
+				alt=""
+			/></SwiperSlide
+		>
+		<SwiperSlide
+			><img
+				class="h-[230px] sm:h-[400px] lg:h-screen overflow-hidden relative"
+				src={sliderImg4}
+				alt=""
+			/></SwiperSlide
+		>
 	</Swiper>
 </section>

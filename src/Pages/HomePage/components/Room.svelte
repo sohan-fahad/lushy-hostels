@@ -22,7 +22,7 @@
 	import sliderImg16 from '../../../assets/images/room/A7R04804.jpg';
 </script>
 
-<section class="overflow-hidden relative ">
+<section class="h-[230px] sm:h-[400px] lg:h-screen overflow-hidden relative">
 	<button
 		class="slider3-button-prev absolute top-[50%] left-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
 	>
@@ -42,19 +42,47 @@
 			prevEl: '.slider3-button-prev'
 		}}
 	>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg2} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg3} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg4} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg5} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg6} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg7} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg8} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg9} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg10} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg12} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg13} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg14} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg15} alt="" /></SwiperSlide>
-		<SwiperSlide><img class="h-auto w-screen" src={sliderImg16} alt="" /></SwiperSlide>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg2} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg3} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg4} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg5} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg6} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg7} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg8} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg9} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg10} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg12} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg13} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg14} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg15} alt="" /></SwiperSlide
+		>
+		<SwiperSlide
+			><img class="w-full sm:w-screen h-[230px] sm:h-auto" src={sliderImg16} alt="" /></SwiperSlide
+		>
 	</Swiper>
 </section>
