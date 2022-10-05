@@ -14,12 +14,12 @@
 
 <section class="h-[230px] sm:h-[400px] lg:h-screen overflow-hidden relative">
 	<button
-		class="slider4-button-prev absolute top-[50%] left-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
+		class="slider4-button-prev absolute top-[45%] left-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
 	>
 		<ChevronLeftIcon /></button
 	>
 	<button
-		class="slider4-button-next absolute top-[50%] right-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
+		class="slider4-button-next absolute top-[45%] right-5 text-xl text-white z-20 bg-[#0000007e] p-[4px] rounded-full"
 		><ChevronRightIcon /></button
 	>
 	<Swiper
